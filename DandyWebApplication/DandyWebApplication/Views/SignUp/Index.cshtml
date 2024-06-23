@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href="~/css/webflow-style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="section black">
+        <div class="w-container">
+            <div class="title">
+                <h1>Start your free 14-day trial</h1>
+                <div class="subtitle">No credit cards. No commitments. Cancel anytime.</div>
+            </div>
+            <div class="w-row">
+                <div class="w-col w-col-7">
+                    <div class="w-form">
+                        <form id="signup-form" method="post">
+                            <input class="field left w-input"
+                                   name="firstName"
+                                   placeholder="First Name" type="text"
+                                   required>
+
+                            <input class="field right w-input"
+                                   name="lastName"
+                                   placeholder="Last Name" type="text"
+                                   required>
+
+                            <input class="field w-input"
+                                   name="email"
+                                   placeholder="Email Address" type="email"
+                                   required>
+
+                            <input class="field w-input"
+                                   name="password"
+                                   placeholder="Password" type="password"
+                                   required>
+
+                            <input class="field w-input"
+                                   name="retypeEmail"
+                                   placeholder="Retype Email Address" type="email"
+                                   required>
+
+                            <button type="submit" class="button sign-up w-button">Sign Up</button>
+                        </form>
+                        <div id="message" style="color: red;"></div>
+                        <div class="success-message big w-form-done">
+                            <h2>Thanks for signing up!</h2>
+                            <p>We will send you an email very soon with next steps.</p>
+                        </div>
+                        <div class="w-form-fail">
+                            <p>Oops! Something went wrong while submitting the form :(</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-col w-col-5">
+                    <div class="testimonials-column">
+                        <div class="testimonials-title">TESTIMONIALS</div>
+                        <p class="testimonial">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            varius enim in eros elementum tristique.
+                        </p>
+                        <div class="testimonials-author">Larry Page, Google</div>
+                        <p class="testimonial">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse.
+                        </p>
+                        <div class="testimonials-author">George, Pingdom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            $('#signup-form').submit(function (event) {
+                event.preventDefault();
+
+                var formData = {
+                    firstName: $('input[name="firstName"]').val(),
+                    lastName: $('input[name="lastName"]').val(),
+                    email: $('input[name="email"]').val(),
+                    password: $('input[name="password"]').val(),
+                    retypeEmail: $('input[name="retypeEmail"]').val()
+                };
+
+                if (formData.email !== formData.retypeEmail) {
+                    $('#message').text('Emails do not match').css('color', 'red');
+                    return;
+                }
+
+                $.ajax({
+                    url: 'http://localhost:5108/api/Account/register',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(formData),
+                    success: function (response) {
+                        console.log('Registration successful:', response);
+                        localStorage.setItem('userName', formData.firstName + " " + formData.lastName.charAt(0));
+                        window.location.href = '/SignUp/Success';
+                    },
+                    error: function (xhr) {
+                        console.error('Registration failed:', xhr.responseText);
+                        $('#message').text('Registration failed: ' + xhr.responseText).css('color', 'red');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

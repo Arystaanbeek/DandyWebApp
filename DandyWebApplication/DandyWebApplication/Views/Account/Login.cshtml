@@ -1,0 +1,50 @@
+﻿
+    <div class="section black">
+        <div class="w-container">
+            <div class="title">
+                <h1>Login to your account</h1>
+                <div class="subtitle">Enter your credentials to access your account.</div>
+            </div>
+            <div class="w-row">
+                <div class="w-col w-col-7">
+                    <div class="w-form">
+                        <form id="login-form" asp-controller="Account" asp-action="Login" method="post">
+                            <input class="field left w-input"
+                                   name="email"
+                                   placeholder="Email Address" type="email"
+                                   required>
+
+                            <input class="field right w-input"
+                                   name="password"
+                                   placeholder="Password" type="password"
+                                   required>
+
+                            <button type="submit" class="button sign-up w-button">Login</button>
+                        </form>
+                        <div id="message" style="color: red;"></div>
+                        <div class="success-message big w-form-done">
+                            <h2>Welcome back!</h2>
+                            <p>Redirecting to your dashboard...</p>
+                        </div>
+                        <div class="w-form-fail">
+                            <p>Oops! Something went wrong while submitting the form :(</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-col w-col-5">
+                    <div class="testimonials-column">
+                        <div class="testimonials-title">TESTIMONIALS</div>
+                        <p class="testimonial">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            varius enim in eros elementum tristique.
+                        </p>
+                        <div class="testimonials-author">Larry Page, Google</div>
+                        <p class="testimonial">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse.
+                        </p>
+                        <div class="testimonials-author">George, Pingdom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,145 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DandyWebApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DandyWebApplication.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\css\\webflow-style.css",
+      "PackagePath": "staticwebassets\\css\\webflow-style.css"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\all-devices-p-500x288.png",
+      "PackagePath": "staticwebassets\\images\\all-devices-p-500x288.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\all-devices.png",
+      "PackagePath": "staticwebassets\\images\\all-devices.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\app-icon.png",
+      "PackagePath": "staticwebassets\\images\\app-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\bag-and-hands-bw.jpg",
+      "PackagePath": "staticwebassets\\images\\bag-and-hands-bw.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\black-ipad-p-1080x1403.png",
+      "PackagePath": "staticwebassets\\images\\black-ipad-p-1080x1403.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\black-ipad-p-500x650.png",
+      "PackagePath": "staticwebassets\\images\\black-ipad-p-500x650.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\black-ipad-p-800x1039.png",
+      "PackagePath": "staticwebassets\\images\\black-ipad-p-800x1039.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\black-ipad.png",
+      "PackagePath": "staticwebassets\\images\\black-ipad.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\dark-laptop.jpg",
+      "PackagePath": "staticwebassets\\images\\dark-laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\facebook-icon.svg",
+      "PackagePath": "staticwebassets\\images\\facebook-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\icon_03.png",
+      "PackagePath": "staticwebassets\\images\\icon_03.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\icon_08.png",
+      "PackagePath": "staticwebassets\\images\\icon_08.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\icon_25.png",
+      "PackagePath": "staticwebassets\\images\\icon_25.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\icon_51.png",
+      "PackagePath": "staticwebassets\\images\\icon_51.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\icon_53.png",
+      "PackagePath": "staticwebassets\\images\\icon_53.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\icon_55.png",
+      "PackagePath": "staticwebassets\\images\\icon_55.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\iphone-flat2x.png",
+      "PackagePath": "staticwebassets\\images\\iphone-flat2x.png"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\logo_fastcompany.svg",
+      "PackagePath": "staticwebassets\\images\\logo_fastcompany.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\logo_forbes.svg",
+      "PackagePath": "staticwebassets\\images\\logo_forbes.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\logo_techcrunch.svg",
+      "PackagePath": "staticwebassets\\images\\logo_techcrunch.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\logo_wired.svg",
+      "PackagePath": "staticwebassets\\images\\logo_wired.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\logo_zdnet.svg",
+      "PackagePath": "staticwebassets\\images\\logo_zdnet.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\team.jpg",
+      "PackagePath": "staticwebassets\\images\\team.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\twitter-icon.svg",
+      "PackagePath": "staticwebassets\\images\\twitter-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\webflow-badge-icon-d2.89e12c322e.svg",
+      "PackagePath": "staticwebassets\\images\\webflow-badge-icon-d2.89e12c322e.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\images\\webflow-badge-text-d2.c82cec3b78.svg",
+      "PackagePath": "staticwebassets\\images\\webflow-badge-text-d2.c82cec3b78.svg"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\aryst\\Downloads\\Telegram Desktop\\DandyWebApplication\\DandyWebApplication\\DandyWebApplication\\wwwroot\\js\\webflow-script.js",
+      "PackagePath": "staticwebassets\\js\\webflow-script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DandyWebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DandyWebApplication.props",
+      "PackagePath": "build\\DandyWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DandyWebApplication.props",
+      "PackagePath": "buildMultiTargeting\\DandyWebApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DandyWebApplication.props",
+      "PackagePath": "buildTransitive\\DandyWebApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

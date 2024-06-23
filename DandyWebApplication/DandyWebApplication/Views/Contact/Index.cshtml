@@ -1,0 +1,48 @@
+﻿
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+         role="banner" class="navbar w-nav">
+        <div class="w-container">
+            <a href="/" class="brand-wrapper w-nav-brand">
+                <div class="logo-text">terminal</div>
+            </a>
+            <nav role="navigation" class="nav-menu w-clearfix w-nav-menu">
+                <a href="/"
+                   class="nav-link w-nav-link">HOME</a>
+                   <a href="/pricing" class="nav-link w-nav-link">pricing</a>
+                   <a href="/services" class="nav-link w-nav-link">services</a>
+                   <a href="/about"class="nav-link w-nav-link">About</a>
+                   <a href="/contact" aria-current="page"class="nav-link w-nav-link w--current">Contact</a>
+                   <a asp-controller="SignUp" asp-action="Index"class="nav-link right w-nav-link">SIGN UP</a>
+            </nav>
+            <div class="menu-button w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section black">
+        <div class="w-container">
+            <h1>Getting in touch is easy</h1>
+            <div class="subtitle">We&#x27;ll get back to you ASAP. No worries.</div>
+            <div class="w-form">
+                <form name="email-form" data-name="Email Form" id="email-form" method="get" class="w-clearfix"
+                      data-wf-page-id="65f1226f813f5edd73335c91"
+                      data-wf-element-id="d9147f13-fb70-ccc4-a876-3264ce445285">
+                    <input class="field left w-input"
+                           maxlength="256" name="first-name" data-name="First Name" placeholder="First Name" type="text"
+                           id="field" required="" /><input class="field right w-input" maxlength="256" name="last-name"
+                           data-name="Last Name" placeholder="Last Name" type="text" id="field" />
+                           <input class="field w-input" maxlength="256" name="email" data-name="Email" placeholder="Email Address"type="email" id="field" required="" />
+                           <textarea placeholder="What do you need help with?" maxlength="5000" name="comments" data-name="Comments" required="" id="field"class="field w-input"></textarea>
+                           <input type="submit" data-wait="Please wait..."class="button contact w-button" value="Send email" />
+                    <h3 class="contact-text">Prefer a phone call? Toll-free 1-800-555-1234</h3>
+                </form>
+                <div class="success-message big w-form-done">
+                    <h2>Thank you for contacting us!</h2>
+                    <p>Your submission has been received and we will reply shortly. </p>
+                </div>
+                <div class="w-form-fail">
+                    <p>Oops! Something went wrong while submitting the form :(</p>
+                </div>
+            </div>
+        </div>
+    </div>
